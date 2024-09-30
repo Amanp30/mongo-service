@@ -1,0 +1,30 @@
+{
+  "name": "mongo-service-aman",
+  "version": "1.0.4",
+  "description": "Run and stop MongoDB replica set services using CLI",
+  "main": "index.js",
+  "bin": {
+    "mongo-service": "index.js"
+  },
+  "scripts": {
+    "mongo-start": "node index.js start",
+    "mongo-stop": "node index.js stop"
+  },
+  "keywords": [
+    "cli",
+    "mongodb"
+  ],
+  "author": "Aman Pareek",
+  "license": "ISC",
+  "homepage": "https://github.com/Amanp30/mongo-service",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amanp30/mongo-service.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Amanp30/mongo-service/issues"
+  },
+  "devDependencies": {
+    "commander": "^12.1.0"
+  }
+}
